@@ -5,6 +5,9 @@ import Header from '../Header/Header';
 import Latest from '../Latest/Latest';
 import LeftAside from './LeftAside';
 import RightAside from './RightAside';
+import FindUs from './FindUs';
+import Qzone from './Qzone';
+import BgPhoto from './BgPhoto';
 
 const HomeLayout = () => {
   return (
@@ -27,6 +30,9 @@ const HomeLayout = () => {
         </section>
         <aside className='col-span-3'>
           <RightAside></RightAside>
+          <FindUs></FindUs>
+          <Qzone></Qzone>
+          <BgPhoto></BgPhoto>
         </aside>
       </main>
     </div>
